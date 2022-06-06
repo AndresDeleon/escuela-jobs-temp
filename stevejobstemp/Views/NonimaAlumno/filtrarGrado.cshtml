@@ -1,0 +1,57 @@
+﻿@model IEnumerable<stevejobstemp.Models.NonimaAlumno>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Notas por Alumno</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form method="post">
+	<div class="row">
+        
+        <div class="col-md-3">
+            <label>Grado: </label>
+			@Html.DropDownList("GradoSeleccionado", (List<SelectListItem>)ViewBag.gradoList)
+		</div>
+        
+	</div>
+    <br />
+    <div class="col-md-4">
+		<input type="submit" name="response" value="Filtrar" width="100" formaction=@Url.Action("filtrarGrado") formmethod="post" class="btn btn-primary" />
+	</div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Alumno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Alumno.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grado.Grado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NominaAlumnoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NominaAlumnoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NominaAlumnoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

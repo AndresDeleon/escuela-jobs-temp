@@ -1,0 +1,54 @@
+﻿@model stevejobstemp.Models.NonimaDocente
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>NonimaDocente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NominaDocenteId" />
+            <div class="form-group">
+                <label for="DocenteId" class="control-label">Docente</label>
+                <select asp-for="DocenteId" class="form-control form-control-sm" 
+                asp-items="@(List<SelectListItem>)ViewBag.docenteList">
+                </select>
+                <!--<input asp-for="DocenteId" class="form-control" />-->
+                <span asp-validation-for="DocenteId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="MateriaId" class="control-label">Materia</label>
+                <select asp-for="MateriaId" class="form-control form-control-sm" 
+                asp-items="@(List<SelectListItem>)ViewBag.materiaList">
+                </select>
+                <span asp-validation-for="MateriaId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="GradoId" class="control-label">Grado</label>
+                <select asp-for="GradoId" class="form-control form-control-sm" 
+                asp-items="@(List<SelectListItem>)ViewBag.gradoList">
+                </select>
+                <span asp-validation-for="GradoId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

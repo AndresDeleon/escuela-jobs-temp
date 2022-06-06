@@ -1,0 +1,100 @@
+﻿@model IEnumerable<stevejobstemp.Models.Notum>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Notas por Materia</h1>
+
+
+<form method="post">
+	<div class="row">
+        
+        <div class="col-md-3">
+            <label>Grado: </label>
+			@Html.DropDownList("GradoSeleccionado", (List<SelectListItem>)ViewBag.gradoList)
+		</div>
+        
+		<div class="col-md-3">
+            <label>Materia:</label>
+			@Html.DropDownList("MateriaSeleccionada", (List<SelectListItem>)ViewBag.materiaList)
+		</div>
+	</div>
+    <br />
+    <div class="col-md-4">
+		<input type="submit" name="response" value="Filtrar" width="100" formaction=@Url.Action("filtrarNotas") formmethod="post" class="btn btn-primary" />
+	</div>
+</form>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Alumno
+            </th>
+            <th>
+                Materia
+            </th>
+            <th>
+                Calificación #1
+            </th>
+            <th>
+                Calificación #2
+            </th>
+            <th>
+                Calificación #3
+            </th>
+            @if (ViewBag.grado > 9)
+            {
+                <th>
+                    Calificación #4
+                </th>   
+            }
+            <th>
+                Promedio
+            </th>
+            <th>
+                Resultado
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Alumno.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Materia.Materia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalificacionUno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalificacionDos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalificacionTres)
+            </td>
+            @if (ViewBag.grado > 9)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.CalificacionCuatro)
+                </td> 
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.CalificacionTotal)
+            </td>
+            @if (item.CalificacionTotal < 6)
+            {
+                <td class="text-danger">Reprobado</td>
+            } else {
+                <td class="text-success">Aprobado</td>
+            }
+            
+        </tr>
+}
+    </tbody>
+</table>

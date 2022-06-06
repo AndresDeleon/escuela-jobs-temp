@@ -1,0 +1,55 @@
+﻿@model IEnumerable<stevejobstemp.Models.Alumno>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table id="tabla" class="table">
+    <thead>
+        <tr>
+            <th>
+                Alumno
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grado.Grado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th>
+                Fecha Nacimiento
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grado.Grado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td>
+                @Html.ValueFor(modelItem => item.FecNac, "{0:dd/MM/yyyy}")
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AlumnoId">Editar</a> | 
+                <a asp-action="Delete" asp-route-id="@item.AlumnoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+

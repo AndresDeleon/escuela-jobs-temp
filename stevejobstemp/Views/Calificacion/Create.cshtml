@@ -1,0 +1,53 @@
+﻿@model stevejobstemp.Models.Calificacion
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Calificacion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CalificacionUno" class="control-label"></label>
+                <input asp-for="CalificacionUno" class="form-control" />
+                <span asp-validation-for="CalificacionUno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CalificacionDos" class="control-label"></label>
+                <input asp-for="CalificacionDos" class="form-control" />
+                <span asp-validation-for="CalificacionDos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CalificacionTres" class="control-label"></label>
+                <input asp-for="CalificacionTres" class="form-control" />
+                <span asp-validation-for="CalificacionTres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CalificacionCuatro" class="control-label"></label>
+                <input asp-for="CalificacionCuatro" class="form-control" />
+                <span asp-validation-for="CalificacionCuatro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CalificacionTotal" class="control-label"></label>
+                <input asp-for="CalificacionTotal" class="form-control" />
+                <span asp-validation-for="CalificacionTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

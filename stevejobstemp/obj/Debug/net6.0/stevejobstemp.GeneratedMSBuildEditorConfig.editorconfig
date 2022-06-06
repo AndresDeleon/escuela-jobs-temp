@@ -1,0 +1,212 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = stevejobstemp
+build_property.RootNamespace = stevejobstemp
+build_property.ProjectDir = D:\Documentos\Universidad\DPWA2022\stevejobstemp\stevejobstemp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Documentos\Universidad\DPWA2022\stevejobstemp\stevejobstemp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Alumno/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Alumno/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Alumno/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Alumno/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Alumno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Calificacion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Calificacion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Calificacion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Calificacion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Calificacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Docente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Docente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Docente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Docente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Docente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Grado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Grado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Grado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Grado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Grado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Materium/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpdW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Materium/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpdW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Materium/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpdW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Materium/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpdW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Materium/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpdW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/filtrarGrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXGZpbHRyYXJHcmFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaAlumno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hQWx1bW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaDocente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hRG9jZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaDocente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hRG9jZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaDocente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hRG9jZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaDocente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hRG9jZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/NonimaDocente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9uaW1hRG9jZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/filtrarNotas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cZmlsdHJhck5vdGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Notum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90dW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Universidad/DPWA2022/stevejobstemp/stevejobstemp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hs9sziplus

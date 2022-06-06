@@ -1,0 +1,48 @@
+﻿@model stevejobstemp.Models.Calificacion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Calificacion</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CalificacionUno)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CalificacionUno)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CalificacionDos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CalificacionDos)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CalificacionTres)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CalificacionTres)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CalificacionCuatro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CalificacionCuatro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CalificacionTotal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CalificacionTotal)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CalificacionId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
