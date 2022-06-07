@@ -13,6 +13,7 @@ namespace stevejobstemp.Models
         public decimal? CalificacionDos { get; set; }
         public decimal? CalificacionTres { get; set; }
         public decimal? CalificacionCuatro { get; set; }
+        [DisplayFormat(DataFormatString = "{0:N1}", ApplyFormatInEditMode = true)]
         public decimal? CalificacionTotal { get; set; }
 
 

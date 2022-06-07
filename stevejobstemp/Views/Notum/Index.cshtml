@@ -45,9 +45,12 @@
             <th>
                 Calificación #3
             </th>
-            <th>
-                Calificación #4
-            </th>
+            @if (ViewBag.grado > 9)
+            {
+                <th>
+                    Calificación #4
+                </th>   
+            }
             <th>
                 Promedio
             </th>
@@ -58,39 +61,42 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Alumno.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Materia.Materia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CalificacionUno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CalificacionDos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CalificacionTres)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CalificacionCuatro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CalificacionTotal)
-            </td>
-            @if (item.CalificacionTotal < 6)
-            {
-                <td class="text-danger">Reprobado</td>
-            } else {
-                <td class="text-success">Aprobado</td>
-            }
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.NotaId" class="btn btn-secondary">Editar</a>
-            </td>
-        </tr>
-}
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Alumno.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Materia.Materia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CalificacionUno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CalificacionDos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CalificacionTres)
+                </td>
+                @if (ViewBag.grado > 9)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CalificacionCuatro)
+                    </td> 
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.CalificacionTotal)
+                </td>
+                @if (item.CalificacionTotal < 6)
+                {
+                    <td class="text-danger">Reprobado</td>
+                } else {
+                    <td class="text-success">Aprobado</td>
+                }
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.NotaId" class="btn btn-secondary">Editar</a>
+                </td>
+            </tr>
+    }
     </tbody>
 </table>

@@ -47,7 +47,7 @@
             </div>
             <br />
 
-            <div class="form-group">
+            <div id="divcal4" class="form-group">
                 <label for="CalificacionCuatro" class="control-label">Calificación #4</label>
                 <input type="number" step=".01" asp-for="CalificacionCuatro" class="form-control"/>
                 <span asp-validation-for="CalificacionCuatro" class="text-danger"></span>
@@ -60,17 +60,43 @@
             </div>
             <br />
             <div class="form-group">
-                <input type="submit"  value="Save" class="btn btn-primary" />
+                <input type="submit" onclick="promedio()" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
 
+<script type="text/javascript">
 
+    promedio();
+
+    function promedio(){
+        var cal1 = parseFloat(document.getElementById("CalificacionUno").value);
+        var cal2 = parseFloat(document.getElementById("CalificacionDos").value);
+        var cal3 = parseFloat(document.getElementById("CalificacionTres").value);
+        var cal4 = document.getElementById("CalificacionCuatro").value;
+        
+        var sum = 0.0;
+        var prom = 0.0;
+
+        if (cal4 == ""){
+            document.getElementById("divcal4").hidden = true;
+            sum = cal1 + cal2 + cal3;
+            prom = sum / 3;
+        } else {
+            cal4 = parseFloat(cal4);
+            sum = cal1 + cal2 + cal3 + cal4;
+            prom = sum / 4;
+        }
+
+        document.getElementById("CalificacionTotal").value = prom;
+    }
+    
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

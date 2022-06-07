@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<stevejobstemp.Models.Notum>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "filtrarDatos";
 }
 
 <h1>Notas por Materia</h1>
@@ -57,7 +57,7 @@
             <th>
                 Resultado
             </th>
-
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -93,7 +93,9 @@
             } else {
                 <td class="text-success">Aprobado</td>
             }
-            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NotaId" class="btn btn-secondary">Editar</a>
+            </td>
         </tr>
 }
     </tbody>

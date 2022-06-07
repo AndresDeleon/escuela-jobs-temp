@@ -24,8 +24,11 @@ namespace stevejobstemp.Controllers
         {
             ViewBag.materiaList = _context.Materia.Select(c => new SelectListItem { Value = c.MateriaId.ToString(), Text = c.Materia }).ToList();
             ViewBag.gradoList = _context.Grado.Select(c => new SelectListItem { Value = c.GradoId.ToString(), Text = c.Grado }).ToList();
+
+            ViewBag.grado = 1;
+
             return _context.Nota != null ? 
-                          View(await _context.Nota.Include(a => a.Alumno).Include(m => m.Materia).ToListAsync()) :
+                          View(await _context.Nota.Where(n => n.Alumno.GradoId == 1).Where(n => n.MateriaId == 1).Include(a => a.Alumno).Include(m => m.Materia).ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Nota'  is null.");
             
         }
