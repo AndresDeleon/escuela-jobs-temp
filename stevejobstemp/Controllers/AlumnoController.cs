@@ -27,6 +27,15 @@ namespace stevejobstemp.Controllers
                           Problem("Entity set 'ApplicationDbContext.Alumno'  is null.");
         }
 
+        public async Task<IActionResult> NotaAlumno(int id)
+        {
+            int? grado = _context.Alumno.Where(n => n.AlumnoId == id).Select(a => a.GradoId).First();
+            ViewBag.grado = grado;
+            return _context.Nota != null ?
+                          View(await _context.Nota.Where(n => n.AlumnoId == id).Include(n => n.Alumno).Include(n => n.Materia).ToListAsync()) :
+                          Problem("Entity set 'ApplicationDbContext.Nota'  is null.");
+        }
+
         // GET: Alumno/Details/5
         public async Task<IActionResult> Details(int? id)
         {
